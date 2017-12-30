@@ -58,7 +58,7 @@ Wayfinding: you are (...here...).
 
 See [Pode](https://pode.herokuapp.com/), https://github.com/toolness/pode, for inspiration.
 
-- In python, which scope (function/method, class, block, etc.). Repeated pressed read identifiers for additional enclosing scopes. Should follow the stackframe, but should also catch loops, conditionals, try/excepts, context managers, and any other mange flow-related blocks.
+- In python, which scope (function/method, class, block, etc.). Repeated pressed read identifiers for additional enclosing scopes. Should follow the stackframe, but should also catch loops, conditionals, try/excepts, context managers, and any other flow-altering blocks.
 
 ### Language-specific screen reader pronounciation lists
 
