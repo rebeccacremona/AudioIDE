@@ -43,6 +43,12 @@ c) Users who do not enable the background tone should be able to trigger it temp
 
 ### Linting
 
+If an indentation chord is enabled, the chord should change from major to minor when keyboard focus is on a line which a linter has flagged as problematic.
+
+Or, a special linter-specific sound should be triggered.
+
+The alteration in pitch is preferred so that a linter-specific sound can be triggered when the problematic characters are arrowed to, and so that the pitch can be restored to normal as soon as the problem is resolved. (Compare the addition of a visual icon to an editor's "gutter" by linters, paired with the red-underlining of problematic code within a line.)
+
 ### Detailed cursor contextual information
 
 Wayfinding: you are (...here...). 
@@ -60,6 +66,7 @@ See [Pode](https://pode.herokuapp.com/), https://github.com/toolness/pode, for i
 -  "!=" maps to "bang equals"
 -  "{{", "{%", "}}" and "%}" map to appropriate open/close descriptors in templating languages
 etc.
+- "{", "}", "[" and "]" map to begin/end dict/list and similar
 
 ### Nested parentheses
 When ")" is typed, announce the name of scope that has been closed (or "anonymous scope", if unnamed).
