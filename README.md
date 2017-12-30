@@ -2,7 +2,7 @@
 Get detailed audio feedback as you program, in addition to or instead of visual feedback
 
 ## The Concept
-Modern integrated development environments (IDEs) have a rich variety of features intended to make coding faster, easier, and less error-prone: syntax highlighting, live linting, code-folding, etc. 
+Modern integrated development environments (IDEs) have a rich variety of features intended to make coding faster, easier, and less error-prone: syntax highlighting, live linting, code-folding, etc.
 
 A large number of these features are designed for fully-sighted people; they may be useless or even problematic for others.
 
@@ -21,13 +21,15 @@ Where should we start?????? What are your suggestions?
 
 ## The Spec
 
+Note: [Emacspeack evidentally implements some of this aleady!](https://stackoverflow.com/questions/118984/how-can-you-program-if-youre-blind)
+
 ### Audio syntax highlighting
 
-Where [standard syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) changes colors, the reading voice should change pitch. 
+Where [standard syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) changes colors, the reading voice should change pitch.
 
 Just as current IDEs permit users to select a preferred color scheme, users should be able to adjust the pitches to their liking and should be able to easily switch between a set of "themes".
 
-Another (likely less desirable) alternative: instead of altering the in pitch, the reader may switch to a different system voice on syntax "color" changes. 
+Another (likely less desirable) alternative: instead of altering the in pitch, the reader may switch to a different system voice on syntax "color" changes.
 
 ### Indentation level
 
@@ -35,7 +37,7 @@ In languages like python, the indentation level of code is meaningful. In all la
 
 a) Expose the current indentation level via a keyboard-shortcut ("Level 2" / "Indentation level 2" / "Indentation level 2: 8 spaces").
 
-b) Offer an optional and configurable background tone which sounds continuously at a low volume and which increases in pitch as indentation increases. The pitches for properly-indented code should be consonant, building a user-configurable, consonant chord (e.g. C1-E1-G1-C2-E2-G2....). Users should be able to specify whether they wish to hear the entire chord, just the note of the current level, or some appropriate subset (e.g., current level and two lower). Improperly indented code will be dissonant and easy to find. 
+b) Offer an optional and configurable background tone which sounds continuously at a low volume and which increases in pitch as indentation increases. The pitches for properly-indented code should be consonant, building a user-configurable, consonant chord (e.g. C1-E1-G1-C2-E2-G2....). Users should be able to specify whether they wish to hear the entire chord, just the note of the current level, or some appropriate subset (e.g., current level and two lower). Improperly indented code will be dissonant and easy to find.
 
   Syntax highlighting themes should specify pitches for this chord, taking care to ensure the experience remains acceptably consonant with all syntax "colors."
 
@@ -51,7 +53,7 @@ The alteration in pitch is preferred so that a linter-specific sound can be trig
 
 ### Detailed cursor contextual information
 
-Wayfinding: you are (...here...). 
+Wayfinding: you are (...here...).
 
 - In html/xml, which tag, and where in it (declaring the tag, adding text to a tag, closing a tag) = tag details.
 - In html.xml, situate the tag in the DOM (you an in a list item, in an ordered list, in a nav....) = tag context. Repeated presses read further up the tree, until the enclosing HTML tag is reached.
@@ -62,7 +64,7 @@ See [Pode](https://pode.herokuapp.com/), https://github.com/toolness/pode, for i
 
 ### Language-specific screen reader pronounciation lists
 
--  "<" maps to "open tag" and ">" maps to "close tag" in html/xml 
+-  "<" maps to "open tag" and ">" maps to "close tag" in html/xml
 -  "!=" maps to "bang equals"
 -  "{{", "{%", "}}" and "%}" map to appropriate open/close descriptors in templating languages
 etc.
