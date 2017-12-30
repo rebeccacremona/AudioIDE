@@ -23,7 +23,7 @@ Where should we start?????? What are your suggestions?
 
 ### Audio syntax highlighting
 
-Where [standard syntax highlighting])https://en.wikipedia.org/wiki/Syntax_highlighting) changes colors, the reading voice should change pitch. 
+Where [standard syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) changes colors, the reading voice should change pitch. 
 
 As one may select a preferred color scheme, users should be able to adjust the pitches to their liking, and should be able to easily switch between a set of "themes".
 
