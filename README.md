@@ -13,9 +13,9 @@ Run a web search for your favorite text editor and the word "accessibility." Cha
 
 Without an open-source editor that is keyboard navigable and that plays nicely with screenreaders, this project can't get off the ground.
 
-Emacs is one good option.
+Emacs/[Emacspeak](https://github.com/tvraman/emacspeak) is one obvious option.
 
-Something simpler, with less steep of a learning curve, would be very welcome.
+Something with less steep of a learning curve would be very welcome...
 
 Where should we start?????? What are your suggestions?
 
