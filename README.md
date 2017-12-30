@@ -25,24 +25,33 @@ Where should we start?????? What are your suggestions?
 
 Where [standard syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highlighting) changes colors, the reading voice should change pitch. 
 
-As current IDEs permit users to select a preferred color scheme, users should be able to adjust the pitches to their liking and should be able to easily switch between a set of "themes".
+Just as current IDEs permit users to select a preferred color scheme, users should be able to adjust the pitches to their liking and should be able to easily switch between a set of "themes".
 
-Another (likely less desirable) alternative: instead of altering the pitch, switch the reader to a different system voice. 
+Another (likely less desirable) alternative: instead of altering the in pitch, the reader may switch to a different system voice on syntax "color" changes. 
 
 ### Indentation level
 
-In some languages, like python, the indentation level of code is meaningful. In all languages, indentation is useful for code organization.
+In languages like python, the indentation level of code is meaningful. In all languages, indentation is useful for code organization.
 
 a) Expose the current indentation level via a keyboard-shortcut ("Level 2" / "Indentation level 2" / "Indentation level 2: 8 spaces").
 
-b) Offer an optional and configurable background tone which sounds continuously at a low volume that increases in pitch as indentation increases. The pitches for properly-indented code should be consonant, building a user-configurable, consonant chord. (E.g. C1-E1-G1-C2-E2-G2....). Users should be able to specify whether they wish to hear the entire chord, just the note of the current level, or some appropriate subset (e.g., current level and two lower). Improperly indented code will be dissonant and easy to find. 
+b) Offer an optional and configurable background tone which sounds continuously at a low volume and which increases in pitch as indentation increases. The pitches for properly-indented code should be consonant, building a user-configurable, consonant chord (e.g. C1-E1-G1-C2-E2-G2....). Users should be able to specify whether they wish to hear the entire chord, just the note of the current level, or some appropriate subset (e.g., current level and two lower). Improperly indented code will be dissonant and easy to find. 
 
-  Syntax highlighting themes should specify pitches for this chord, taking care to ensure the experience remains acceptable consonant througout.
+  Syntax highlighting themes should specify pitches for this chord, taking care to ensure the experience remains acceptably consonant with all syntax "colors."
 
-c) Users who do not enable the background tone, should be able to trigger it temporarily on demand while holding down a keyboard shortcut. If the tone is already enabled, the same shortcut should temporarily increase its volume.
+c) Users who do not enable the background tone should be able to trigger it temporarily on demand while holding down a keyboard shortcut. If the tone is already enabled, the same shortcut should temporarily increase its volume.
 
 ### Linting
 
 ### Detailed cursor contextual information
 
+### Language-specific screen reader pronounciation lists
+
+"<" maps to "open tag" and ">" maps to "close tag" in html/xml 
+"!=" maps to "bang equals"
+"{{", "{%", "}}" and "%}" map to appropriate open/close descriptors in templating languages
+etc.
+
+### Nested parentheses
+When ")" is typed, announce the name of scope that has been closed (or "anonymous scope", if unnamed).
 
