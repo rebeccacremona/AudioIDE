@@ -1,5 +1,5 @@
 #!/usr/bin/osascript
-# from http://hints.macworld.com/article.php?story=20120204172337402
+-- from http://hints.macworld.com/article.php?story=20120204172337402
 
 set currentUser to long user name of (get system info)
 set firstName to first word of currentUser
