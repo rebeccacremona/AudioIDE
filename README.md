@@ -47,9 +47,9 @@ c) Users who do not enable the background tone should be able to trigger it temp
 
 ### Language-specific screen reader pronounciation lists
 
-"<" maps to "open tag" and ">" maps to "close tag" in html/xml 
-"!=" maps to "bang equals"
-"{{", "{%", "}}" and "%}" map to appropriate open/close descriptors in templating languages
+-  "<" maps to "open tag" and ">" maps to "close tag" in html/xml 
+-  "!=" maps to "bang equals"
+-  "{{", "{%", "}}" and "%}" map to appropriate open/close descriptors in templating languages
 etc.
 
 ### Nested parentheses
