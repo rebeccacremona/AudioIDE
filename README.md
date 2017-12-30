@@ -21,7 +21,8 @@ Where should we start?????? What are your suggestions?
 
 ## The Spec
 
-Note: [Emacspeack evidentally implements some of this aleady!](https://stackoverflow.com/questions/118984/how-can-you-program-if-youre-blind)
+Note: [Emacspeak evidently implements some (or all) of this already!](https://stackoverflow.com/questions/118984/how-can-you-program-if-youre-blind)
+- http://tvraman.github.io/emacspeak/manual/Audio-Formatting-And-Aural-CSS.html#Audio-Formatting-And-Aural-CSS
 
 ### Audio syntax highlighting
 
@@ -30,6 +31,11 @@ Where [standard syntax highlighting](https://en.wikipedia.org/wiki/Syntax_highli
 Just as current IDEs permit users to select a preferred color scheme, users should be able to adjust the pitches to their liking and should be able to easily switch between a set of "themes".
 
 Another (likely less desirable) alternative: instead of altering the in pitch, the reader may switch to a different system voice on syntax "color" changes.
+
+refs:
+
+- http://tvraman.github.io/emacspeak/manual/Voice-Lock.html#Voice-Lock
+- http://tvraman.github.io/emacspeak/manual/Voice_002dlock.html#Voice_002dlock
 
 ### Indentation level
 
@@ -42,6 +48,10 @@ b) Offer an optional and configurable background tone which sounds continuously 
   Syntax highlighting themes should specify pitches for this chord, taking care to ensure the experience remains acceptably consonant with all syntax "colors."
 
 c) Users who do not enable the background tone should be able to trigger it temporarily on demand while holding down a keyboard shortcut. If the tone is already enabled, the same shortcut should temporarily increase its volume.
+
+refs:
+- "Indicates indentation with a tone or a spoken cue if audio indentation is in use." http://tvraman.github.io/emacspeak/manual/Reading.html#Reading
+
 
 ### Linting
 
@@ -69,6 +79,10 @@ See [Pode](https://pode.herokuapp.com/), https://github.com/toolness/pode, for i
 -  "{{", "{%", "}}" and "%}" map to appropriate open/close descriptors in templating languages
 etc.
 - "{", "}", "[" and "]" map to begin/end dict/list and similar
+
+refs:
+
+-  http://tvraman.github.io/emacspeak/manual/emacspeak_002dpronounce.html#emacspeak_002dpronounce
 
 ### Nested parentheses
 When ")" is typed, announce the name of scope that has been closed (or "anonymous scope", if unnamed).
