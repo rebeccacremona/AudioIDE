@@ -45,6 +45,15 @@ c) Users who do not enable the background tone should be able to trigger it temp
 
 ### Detailed cursor contextual information
 
+Wayfinding: you are (...here...). 
+
+- In html/xml, which tag, and where in it (declaring the tag, adding text to a tag, closing a tag) = tag details.
+- In html.xml, situate the tag in the DOM (you an in a list item, in an ordered list, in a nav....) = tag context. Repeated presses read further up the tree, until the enclosing HTML tag is reached.
+
+See [Pode](https://pode.herokuapp.com/), https://github.com/toolness/pode, for inspiration.
+
+- In python, which scope (function/method, class, block, etc.). Repeated pressed read identifiers for additional enclosing scopes. Should follow the stackframe, but should also catch loops, conditionals, try/excepts, context managers, and any other mange flow-related blocks.
+
 ### Language-specific screen reader pronounciation lists
 
 -  "<" maps to "open tag" and ">" maps to "close tag" in html/xml 
